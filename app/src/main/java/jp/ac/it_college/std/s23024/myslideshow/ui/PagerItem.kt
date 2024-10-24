@@ -26,6 +26,6 @@ fun PagerItem(
 
 @Preview
 @Composable
-private fun PagerItemPreview() {
+fun PagerItemPreview() {
     PagerItem(imageRes = R.drawable.slide00)
 }
