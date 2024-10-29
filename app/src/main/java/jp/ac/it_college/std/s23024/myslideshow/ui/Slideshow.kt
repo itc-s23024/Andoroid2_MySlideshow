@@ -39,6 +39,7 @@ fun Slideshow(
         while (slideshow) {
             delay(3000)
             pagerState.animateScrollToPage(
+                                                    //size画像の枚数 %でループさせてる 余った枚数をループさせてる
                 page = (pagerState.currentPage + 1) % resources.size
             )
         }
