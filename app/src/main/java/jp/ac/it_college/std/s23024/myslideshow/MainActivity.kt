@@ -20,9 +20,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MySlideshowTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Slideshow()
-                }
             }
         }
     }
